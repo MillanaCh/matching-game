@@ -1,0 +1,46 @@
+1) create const URl and KEY outside func
+
+2) create const fetching with await (fetch or async await)
+  * do not forget try and catch
+  * make fetch(URL+KEY) 
+       * but we need 12 photo and double this request with page2 and page 3 to get 20
+  * convert to json()
+  * check console.log(data)
+3) install axios (instead fetch) npm install axios
+and replace try, we do not need json with axios 
+   * destructoring with axios.all() to put all in one
+   * make copy with ... and slice, because splice is cutting (removing)
+4)we need unique key for every with another library nanoid npm install and pass before set with map
+   * map data and return with copy of image and new element: unique: with nanoid()
+5) make App part with map to map photos, create div for each photo  and img-use thumb size of img, (key, src, alt)
+  * add css part
+6) make randomness to photos after try before mapping=>
+  * create func expression and param(data)
+    * make random 
+    * store the rndom number in variable
+    * replace 0 index to index of random number
+    * instead 0 index make random number
+  * replace data with random function
+  * set to hook new one
+7) we need onClick in div we make func onClick and make if station 
+  * make copy
+  * set new key check if we clicked
+  * set copy to setPhotos
+8) new state [ ] for track 
+  * if (statement - save index to new state) 
+    if is null set index and stop function (check if i have selected in last click), if do not have will add index there to compare in future
+    else  
+       * (if the player clicked the same image) if unique is same stop function
+       * (else if was another clicked) 
+       if index id and selected id is not equal
+       setTimeout(
+         change our key again to false
+         set change to null
+         set to newPhoto
+       )
+       else (set to null)
+ 9)
+          
+
+
+
